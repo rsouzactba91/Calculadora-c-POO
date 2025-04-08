@@ -28,103 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            btn8 = new Button();
+            btn7 = new Button();
+            btn9 = new Button();
+            btn6 = new Button();
+            btn4 = new Button();
+            btn5 = new Button();
+            btn3 = new Button();
             btn1 = new Button();
-            button9 = new Button();
+            btn2 = new Button();
             button10 = new Button();
-            btnC = new Button();
+            btnlimpar = new Button();
             button12 = new Button();
-            btnsub = new Button();
-            btnmulti = new Button();
-            button15 = new Button();
+            btnsubtrair = new Button();
+            btnmultiplicar = new Button();
+            btnigualdade = new Button();
+            btndividir = new Button();
             button17 = new Button();
             button18 = new Button();
             txbvisor = new TextBox();
-            btndividir = new Button();
-            btnsomaar = new Button();
-            lblexpressao = new Label();
-            lblOperacao = new Label();
+            btnsomar = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btn8
             // 
-            button1.Location = new Point(66, 158);
-            button1.Name = "button1";
-            button1.Size = new Size(48, 39);
-            button1.TabIndex = 0;
-            button1.Text = "8";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btn8.Location = new Point(66, 127);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(48, 39);
+            btn8.TabIndex = 0;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = true;
+            btn8.Click += btn8_Click;
             // 
-            // button2
+            // btn7
             // 
-            button2.Location = new Point(12, 158);
-            button2.Name = "button2";
-            button2.Size = new Size(48, 39);
-            button2.TabIndex = 1;
-            button2.Text = "7";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btn7.Location = new Point(12, 127);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(48, 39);
+            btn7.TabIndex = 1;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = true;
+            btn7.Click += btn7_Click;
             // 
-            // button3
+            // btn9
             // 
-            button3.Location = new Point(120, 158);
-            button3.Name = "button3";
-            button3.Size = new Size(48, 39);
-            button3.TabIndex = 2;
-            button3.Text = "9";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btn9.Location = new Point(120, 127);
+            btn9.Name = "btn9";
+            btn9.Size = new Size(48, 39);
+            btn9.TabIndex = 2;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = true;
+            btn9.Click += btn9_Click;
             // 
-            // button4
+            // btn6
             // 
-            button4.Location = new Point(120, 203);
-            button4.Name = "button4";
-            button4.Size = new Size(48, 39);
-            button4.TabIndex = 5;
-            button4.Text = "6";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btn6.Location = new Point(120, 172);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(48, 39);
+            btn6.TabIndex = 5;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = true;
+            btn6.Click += btn6_Click;
             // 
-            // button5
+            // btn4
             // 
-            button5.Location = new Point(12, 203);
-            button5.Name = "button5";
-            button5.Size = new Size(48, 39);
-            button5.TabIndex = 4;
-            button5.Text = "4";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btn4.Location = new Point(12, 172);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(48, 39);
+            btn4.TabIndex = 4;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = true;
+            btn4.Click += btn4_Click;
             // 
-            // button6
+            // btn5
             // 
-            button6.Location = new Point(66, 203);
-            button6.Name = "button6";
-            button6.Size = new Size(48, 39);
-            button6.TabIndex = 3;
-            button6.Text = "5";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            btn5.Location = new Point(66, 172);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(48, 39);
+            btn5.TabIndex = 3;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = true;
+            btn5.Click += btn5_Click;
             // 
-            // button7
+            // btn3
             // 
-            button7.Location = new Point(120, 248);
-            button7.Name = "button7";
-            button7.Size = new Size(48, 39);
-            button7.TabIndex = 8;
-            button7.Text = "3";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
+            btn3.Location = new Point(120, 217);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(48, 39);
+            btn3.TabIndex = 8;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btn3_Click;
             // 
             // btn1
             // 
-            btn1.Location = new Point(12, 248);
+            btn1.Location = new Point(12, 217);
             btn1.Name = "btn1";
             btn1.Size = new Size(48, 39);
             btn1.TabIndex = 7;
@@ -132,194 +130,179 @@
             btn1.UseVisualStyleBackColor = true;
             btn1.Click += btn1_Click;
             // 
-            // button9
+            // btn2
             // 
-            button9.Location = new Point(66, 248);
-            button9.Name = "button9";
-            button9.Size = new Size(48, 39);
-            button9.TabIndex = 6;
-            button9.Text = "2";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
+            btn2.Location = new Point(66, 217);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(48, 39);
+            btn2.TabIndex = 6;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += btn2_Click;
             // 
             // button10
             // 
-            button10.Location = new Point(120, 293);
+            button10.Location = new Point(120, 262);
             button10.Name = "button10";
             button10.Size = new Size(48, 39);
             button10.TabIndex = 11;
             button10.Text = ",";
             button10.UseVisualStyleBackColor = true;
             // 
-            // btnC
+            // btnlimpar
             // 
-            btnC.Location = new Point(12, 293);
-            btnC.Name = "btnC";
-            btnC.Size = new Size(48, 39);
-            btnC.TabIndex = 10;
-            btnC.Text = "C";
-            btnC.UseVisualStyleBackColor = true;
-            btnC.Click += btnC_Click;
+            btnlimpar.Location = new Point(12, 262);
+            btnlimpar.Name = "btnlimpar";
+            btnlimpar.Size = new Size(48, 39);
+            btnlimpar.TabIndex = 10;
+            btnlimpar.Text = "C";
+            btnlimpar.UseVisualStyleBackColor = true;
+            btnlimpar.Click += btnlimpar_Click;
             // 
             // button12
             // 
-            button12.Location = new Point(66, 293);
+            button12.Location = new Point(66, 262);
             button12.Name = "button12";
             button12.Size = new Size(48, 39);
             button12.TabIndex = 9;
             button12.Text = "0";
             button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
             // 
-            // btnsub
+            // btnsubtrair
             // 
-            btnsub.Location = new Point(174, 158);
-            btnsub.Name = "btnsub";
-            btnsub.Size = new Size(60, 39);
-            btnsub.TabIndex = 12;
-            btnsub.Text = "-";
-            btnsub.UseVisualStyleBackColor = true;
-            btnsub.Click += btnsubtrair_Click;
+            btnsubtrair.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnsubtrair.Location = new Point(174, 127);
+            btnsubtrair.Name = "btnsubtrair";
+            btnsubtrair.Size = new Size(60, 39);
+            btnsubtrair.TabIndex = 12;
+            btnsubtrair.Text = "-";
+            btnsubtrair.UseVisualStyleBackColor = true;
+            btnsubtrair.Click += btnsubtrair_Click;
             // 
-            // btnmulti
+            // btnmultiplicar
             // 
-            btnmulti.Location = new Point(174, 203);
-            btnmulti.Name = "btnmulti";
-            btnmulti.Size = new Size(60, 39);
-            btnmulti.TabIndex = 13;
-            btnmulti.Text = "X";
-            btnmulti.UseVisualStyleBackColor = true;
-            btnmulti.Click += button14_Click;
+            btnmultiplicar.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnmultiplicar.Location = new Point(174, 172);
+            btnmultiplicar.Name = "btnmultiplicar";
+            btnmultiplicar.Size = new Size(60, 39);
+            btnmultiplicar.TabIndex = 13;
+            btnmultiplicar.Text = "*";
+            btnmultiplicar.UseVisualStyleBackColor = true;
+            btnmultiplicar.Click += btnmultiplicar_Click;
             // 
-            // button15
+            // btnigualdade
             // 
-            button15.Location = new Point(174, 293);
-            button15.Name = "button15";
-            button15.Size = new Size(60, 39);
-            button15.TabIndex = 15;
-            button15.Text = "=";
-            button15.UseVisualStyleBackColor = true;
+            btnigualdade.Location = new Point(174, 262);
+            btnigualdade.Name = "btnigualdade";
+            btnigualdade.Size = new Size(60, 39);
+            btnigualdade.TabIndex = 15;
+            btnigualdade.Text = "=";
+            btnigualdade.UseVisualStyleBackColor = true;
+            btnigualdade.Click += btnigualdade_Click;
+            // 
+            // btndividir
+            // 
+            btndividir.Font = new Font("Segoe UI Light", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btndividir.Location = new Point(174, 217);
+            btndividir.Name = "btndividir";
+            btndividir.Size = new Size(60, 39);
+            btndividir.TabIndex = 14;
+            btndividir.Text = "/";
+            btndividir.UseVisualStyleBackColor = true;
+            btndividir.Click += btndividir_Click;
             // 
             // button17
             // 
-            button17.Location = new Point(154, 69);
+            button17.Location = new Point(154, 38);
             button17.Name = "button17";
             button17.Size = new Size(80, 39);
             button17.TabIndex = 16;
             button17.Text = "Cientifica";
             button17.UseVisualStyleBackColor = true;
+            button17.Click += btncientifica_Click;
             // 
             // button18
             // 
-            button18.Location = new Point(12, 69);
+            button18.Location = new Point(12, 38);
             button18.Name = "button18";
             button18.Size = new Size(136, 39);
             button18.TabIndex = 17;
             button18.Text = "Memória";
             button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
             // 
             // txbvisor
             // 
             txbvisor.BorderStyle = BorderStyle.FixedSingle;
-            txbvisor.Location = new Point(12, 40);
+            txbvisor.Location = new Point(12, 9);
             txbvisor.Name = "txbvisor";
             txbvisor.Size = new Size(222, 23);
             txbvisor.TabIndex = 18;
             // 
-            // btndividir
+            // btnsomar
             // 
-            btndividir.Location = new Point(174, 248);
-            btndividir.Name = "btndividir";
-            btndividir.Size = new Size(60, 39);
-            btndividir.TabIndex = 19;
-            btndividir.Text = "/";
-            btndividir.UseVisualStyleBackColor = true;
-            btndividir.Click += btndividir_Click;
-            // 
-            // btnsomaar
-            // 
-            btnsomaar.Location = new Point(174, 114);
-            btnsomaar.Name = "btnsomaar";
-            btnsomaar.Size = new Size(60, 39);
-            btnsomaar.TabIndex = 20;
-            btnsomaar.Text = "+";
-            btnsomaar.UseVisualStyleBackColor = true;
-            btnsomaar.Click += btnsomar_Click;
-            // 
-            // lblexpressao
-            // 
-            lblexpressao.Location = new Point(0, 0);
-            lblexpressao.Name = "lblexpressao";
-            lblexpressao.Size = new Size(100, 23);
-            lblexpressao.TabIndex = 0;
-            // 
-            // lblOperacao
-            // 
-            lblOperacao.AutoSize = true;
-            lblOperacao.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblOperacao.Location = new Point(189, 9);
-            lblOperacao.Name = "lblOperacao";
-            lblOperacao.Size = new Size(45, 17);
-            lblOperacao.TabIndex = 21;
-            lblOperacao.Text = "label1";
+            btnsomar.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnsomar.Location = new Point(174, 82);
+            btnsomar.Name = "btnsomar";
+            btnsomar.Size = new Size(60, 39);
+            btnsomar.TabIndex = 19;
+            btnsomar.Text = "+";
+            btnsomar.UseVisualStyleBackColor = true;
+            btnsomar.Click += btnsomar_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(246, 342);
-            Controls.Add(lblOperacao);
-            Controls.Add(lblexpressao);
-            Controls.Add(btnsomaar);
-            Controls.Add(btndividir);
+            ClientSize = new Size(246, 317);
+            Controls.Add(btnsomar);
             Controls.Add(txbvisor);
             Controls.Add(button18);
             Controls.Add(button17);
-            Controls.Add(button15);
-            Controls.Add(btnmulti);
-            Controls.Add(btnsub);
+            Controls.Add(btnigualdade);
+            Controls.Add(btndividir);
+            Controls.Add(btnmultiplicar);
+            Controls.Add(btnsubtrair);
             Controls.Add(button10);
-            Controls.Add(btnC);
+            Controls.Add(btnlimpar);
             Controls.Add(button12);
-            Controls.Add(button7);
+            Controls.Add(btn3);
             Controls.Add(btn1);
-            Controls.Add(button9);
-            Controls.Add(button4);
-            Controls.Add(button5);
-            Controls.Add(button6);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btn2);
+            Controls.Add(btn6);
+            Controls.Add(btn4);
+            Controls.Add(btn5);
+            Controls.Add(btn9);
+            Controls.Add(btn7);
+            Controls.Add(btn8);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
+        private Button btn8;
+        private Button btn7;
+        private Button btn9;
+        private Button btn6;
+        private Button btn4;
+        private Button btn5;
+        private Button btn3;
         private Button btn1;
-        private Button button9;
+        private Button btn2;
         private Button button10;
-        private Button btnC;
+        private Button btnlimpar;
         private Button button12;
-        private Button btnsub;
-        private Button btnmulti;
-        private Button button15;
+        private Button btnsubtrair;
+        private Button btnmultiplicar;
+        private Button btnigualdade;
         private Button btndividir;
         private Button button17;
         private Button button18;
         private TextBox txbvisor;
-      
-        private Button btnsomaar;
-        private Label lblexpressao;
-        private Label lblOperacao;
+        private Button btnsomar;
     }
 }

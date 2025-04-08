@@ -1,54 +1,35 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace WinFormsApp1
 {
     public partial class Calculadora
     {
-        public string Resultado { get; set; }
-
-        public void Somar(string a, string b)
+        public double Somar(double a, double b)
         {
-            Resultado = Convert.ToString(Convert.ToDouble(a) + Convert.ToDouble(b));
+            return a + b;
         }
 
-        public void Subtrair(string a, string b)
+        public double Subtrair(double a, double b)
         {
-            Resultado = Convert.ToString(Convert.ToDouble(a) - Convert.ToDouble(b));
+            return a - b;
         }
 
-        public void Multiplicar(string a, string b)
+        public double Multiplicar(double a, double b)
         {
-            Resultado = Convert.ToString(Convert.ToDouble(a) * Convert.ToDouble(b));
+            return a * b;
         }
 
-        public void Dividir(string a, string b)
+        public double Dividir(double a, double b)
         {
-            double divisor = Convert.ToDouble(b);
-            if (divisor == 0)
+            if (b == 0)
                 throw new DivideByZeroException("Divisão por zero não é permitida.");
-
-            Resultado = Convert.ToString(Convert.ToDouble(a) / divisor);
-        }
-
-        public void Operar(string a, string b, string operacao)
-        {
-            switch (operacao)
-            {
-                case "somar":
-                    Somar(a, b);
-                    break;
-                case "subtrair":
-                    Subtrair(a, b);
-                    break;
-                case "multiplicar":
-                    Multiplicar(a, b);
-                    break;
-                case "dividir":
-                    Dividir(a, b);
-                    break;
-                default:
-                    throw new InvalidOperationException("Operação inválida.");
-            }
+            return a / b;
         }
     }
+
+
 }
